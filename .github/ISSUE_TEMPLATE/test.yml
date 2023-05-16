@@ -48,7 +48,7 @@ body:
     attributes:
       label: Date of Submission
       description: Date of Submission
-      placeholder: ex: 01 January 2023
+      placeholder: ex. 01 January 2023
     validations:
       required: true
       
