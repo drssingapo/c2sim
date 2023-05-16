@@ -35,3 +35,12 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: true
+   - type: input
+    id: submitterorg
+    attributes:
+      label: Submitter Organization
+      description: Submitter Organization
+      placeholder: 
+    validations:
+      required: true
+      
