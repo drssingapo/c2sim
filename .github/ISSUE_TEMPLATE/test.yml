@@ -6,22 +6,14 @@ assignees:
   - octocat
 body:
 
-
-
-
-  - type: markdown
+ - type: input
+    id: contactemail
     attributes:
-      value: |
-        Thank you for taking the time to fill out this C2SIM Issue!
- 
- - type: checkboxes
-    id: consent
-    attributes:
-      label: Consent for contact
-      description: By submitting this issue, you agree to be contacted in relation to this issue
-      options:
-        - label: I agree to be contacted in relation to this issue
-          validations:
-      required: true  
+      label: Contact Email
+      description: Contact Email Address
+      placeholder: ex: email@example.com
+    validations:
+      required: true
+      
    
 
