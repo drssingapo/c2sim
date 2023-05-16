@@ -10,10 +10,10 @@ body:
       value: |
         Thank you for taking the time to fill out this C2SIM Issue!
   - type: dropdown
-    id: type
+    id: issuetype
     attributes:
       label: Issue Type
-      description: WIs this a Problem report or a change request
+      description: Is this a Problem report or a change request
       options:
         - Problem Report 
         - Change Request
@@ -52,7 +52,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: type
+    id: producttype
     attributes:
       label: Product
       description: To which product does this issue pertain?
