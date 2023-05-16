@@ -27,7 +27,7 @@ body:
       placeholder: Submitter Name(s)
     validations:
       required: true
-   - type: input
+  - type: input
     id: contactemail
     attributes:
       label: Contact Email
