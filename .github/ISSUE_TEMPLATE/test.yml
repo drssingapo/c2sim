@@ -15,8 +15,8 @@ body:
       label: Issue Type
       description: WIs this a Problem report or a change request
       options:
-        - Problem Report
-        - Change Request
+        - Problem Report (Default)
+        - Change Request (Edge)
     validations:
       required: true
   - type: input
