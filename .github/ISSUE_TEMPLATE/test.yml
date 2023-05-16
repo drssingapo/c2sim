@@ -43,4 +43,13 @@ body:
       placeholder: 
     validations:
       required: true
+  - type: input
+    id: submitdate
+    attributes:
+      label: Date of Submission
+      description: Date of Submission
+      placeholder: ex: 01 January 2023
+    validations:
+      required: true
+      
       
