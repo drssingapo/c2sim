@@ -5,10 +5,6 @@ labels: ["issue", "triage"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for taking the time to fill out this C2SIM Issue!
    - type: input
     id: submitterName
     attributes:
