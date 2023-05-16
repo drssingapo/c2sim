@@ -17,3 +17,11 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
+   - type: input
+    id: submitterName
+    attributes:
+      label: Submitter Name
+      description: Submitter Name(s)
+      placeholder: Submitter Name(s)
+    validations:
+      required: true
