@@ -32,6 +32,6 @@ body:
     attributes:
       label: Contact Email
       description: Contact Email Address
-      placeholder: ex: email@example.com
+      placeholder: ex. email@example.com
     validations:
       required: true
