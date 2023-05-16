@@ -5,15 +5,15 @@ labels: ["issue", "triage"]
 assignees:
   - octocat
 body:
-
- - type: input
-    id: contactemail
+  - type: markdown
     attributes:
-      label: Contact Email
-      description: Contact Email Address
-      placeholder: ex: email@example.com
+      value: |
+        Thank you for taking the time to fill out this C2SIM Issue!
+   - type: input
+    id: submitterName
+    attributes:
+      label: Submitter Name
+      description: Submitter Name(s)
+      placeholder: Submitter Name(s)
     validations:
       required: true
-      
-   
-
